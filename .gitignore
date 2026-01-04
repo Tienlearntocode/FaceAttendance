@@ -1,0 +1,19 @@
+# Bỏ qua thư mục build (Rác biên dịch)
+build/
+out/
+cmake-build-debug/
+
+# Bỏ qua file cài đặt của VS Code
+.vscode/
+.vs/
+
+# Bỏ qua file chạy và file tạm
+*.exe
+*.dll
+*.o
+*.obj
+
+# Bỏ qua file database và model (Nặng)
+*.db
+*.sqlite
+*.onnx
